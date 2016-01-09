@@ -1,3 +1,8 @@
+/* NOTE - my rhymescheme for the petrarch sonnet is party wrong, I think it has something to do with
+the punctiation in the file (interprets . and , as an 'a') but cba to debug it. rest works*/
+
+
+
 #include <iostream>
 #include <cstring>
 #include <cctype>
