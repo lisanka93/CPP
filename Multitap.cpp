@@ -1,6 +1,7 @@
 
 //ugly I know
 #include <string>
+#include <cstring>
 #include <stdio.h>
 #include <iostream>
 
