@@ -145,15 +145,12 @@ bool compare(char one[], char two[])
 
 bool compare2(char one[], char two[], int length)
 {
-  char* ptr = one;
-  char* ptr2 = two;
-
-  if(length == 1 && *ptr == *ptr2)          //basecase
+  if(length == 1 && *one == *two)          //basecase
    return true;
 
-  if(*ptr == *ptr2)
+  if(*one == *two)
   {
-   return compare2(++ptr, ++ptr2, length-1);     //comparing, decrementing length
+   return compare2(++one, ++two, length-1);     //comparing, decrementing length
   }
     return false;                          //otherwise false
 }
